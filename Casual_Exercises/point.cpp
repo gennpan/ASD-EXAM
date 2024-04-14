@@ -7,7 +7,7 @@ class point
         point(double X, double Y) { x=X; y=Y; } //costruttore classe base
         void setx(double);
         void sety(double);
-        double getx() { return x; }
+        double getx() {return x; }
         double gety() {return y; }
     
     private:
