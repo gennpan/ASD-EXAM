@@ -1,0 +1,1 @@
+Node() : left(nullptr), right{nullptr}, parent{nullptr} {}

@@ -1,7 +1,7 @@
 #include <iostream>
-#include "test2.h"
-#include "abr.h"
-#include "coseDaFare.h"
+#include "test2.hpp"
+#include "abr.hpp"
+#include "coseDaFare.hpp"
 using std::cout;
 using std::endl;
 

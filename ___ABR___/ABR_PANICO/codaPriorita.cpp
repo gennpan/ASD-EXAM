@@ -4,10 +4,10 @@
 priorità basata su chiavi*/
 
 
-#ifndef codaPriorita_h
-#define codaPriorita_h
-#include "abr.h"
-#include "node.h"
+#ifndef codaPriorita_hpp
+#define codaPriorita_hpp
+#include "abr.hpp"
+#include "node.hpp"
 
 template <typename T>
 class codaPriorita 
@@ -28,6 +28,4 @@ class codaPriorita
         }
 
 };
-
-
 #endif

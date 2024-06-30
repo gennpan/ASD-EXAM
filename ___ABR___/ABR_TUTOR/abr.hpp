@@ -1,8 +1,8 @@
-#ifndef ABR_H
-#define ABR_H
+#ifndef ABR_HPP
+#define ABR_HPP
 
 #include <iostream>
-#include "node.h"
+#include "node.hpp"
 
 template <typename T>
 class Abr
@@ -48,7 +48,7 @@ private:
     }
 
 public:
-    Abr() : root{nullptr} {}
+    Abr() : root{nullptr} {} //costruttore, inizializzo il membro root a nullptr in quanto root è un puntatore
     ~Abr()
     {
         deleteAbr(root);

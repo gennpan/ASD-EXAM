@@ -4,7 +4,7 @@
 
 
 #include <iostream>
-#include "STACK.h"
+#include "STACK.hpp"
 #include "STACK.cpp"
 
 using namespace std;

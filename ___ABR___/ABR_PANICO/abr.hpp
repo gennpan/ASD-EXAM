@@ -1,7 +1,7 @@
-#ifndef ABR_H
-#define ABR_H
+#ifndef ABR_HPP
+#define ABR_HPP
 
-#include "test2.h"
+#include "test2.hpp"
 #include <iostream>
 
 template <typename T>

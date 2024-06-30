@@ -1,5 +1,5 @@
-#ifndef coseDaFare_h
-#define coseDaFare_h
+#ifndef coseDaFare_hpp
+#define coseDaFare_hpp
 
 
 #include <string>
@@ -20,7 +20,7 @@ class coseDaFare
         }
         
         void setPriorita(int x) {priorita = x;}
-        void setDesc(string x) {descrizione = x;}
+        void setDesc(std::string x) {descrizione = x;}
 
         int getPriorita() {return this->priorita;}
         std::string getDesc() {return this->descrizione;}

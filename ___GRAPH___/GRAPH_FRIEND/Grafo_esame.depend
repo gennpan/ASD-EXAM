@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1708339229 source:c:\users\nicol\onedrive\desktop\codeblocks\grafo_esame\main.cpp
+	<iostream>
+	<fstream>
+	<map>
+	<vector>
+	<algorithm>
+	<climits>
+	<queue>
+
